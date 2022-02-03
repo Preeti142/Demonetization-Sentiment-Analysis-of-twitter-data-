@@ -1,0 +1,22 @@
+Problem Definition: Building a model
+
+By using Decision tree:
+
+from sklearn.tree import DecisionTreeClassifier
+dt=DecisionTreeClassifier()
+Accuracy: 0.906801007556675
+
+By using Multinomial Naïve Baye’s : 
+from sklearn.naive_bayes import MultinomialNB
+nb = MultinomialNB() 
+Accuracy: 0.887489504617968
+
+By using Random Forest :
+from sklearn.ensemble import RandomForestClassifier
+rf=RandomForestClassifier(n_estimators=100)
+Accuracy: 0.9202350965575147
+
+Conclusion:Random Forest Model fits the data with a greater accuracy.
+
+
+
